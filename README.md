@@ -5,7 +5,7 @@ Interactive CLI installer for all [Mercury Platform](https://mercuryintelligence
 ## Usage
 
 ```bash
-npx github:Jaggerxtrm/mercury-install-mcp
+npx github:Jaggerxtrm/terminalbeta
 ```
 
 No npm account or global install required. Requires **Node.js ≥ 18** and the **Claude Code CLI** (`claude`).
