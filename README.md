@@ -74,19 +74,19 @@ Once the MCPs are installed, a set of Claude Code skills is available to get the
 
 ### Installing the skills
 
-The skills live in the `skills/` directory of this repo. **You need to clone the repo to use them:**
+The skills live in the `skills/` directory of this repo. **Beta testing is designed to be done from within this repo** — clone it, open Claude Code here, and the skills are immediately available:
 
 ```bash
 git clone https://github.com/Jaggerxtrm/terminalbeta.git
+cd terminalbeta
+claude  # open Claude Code in the repo
 ```
 
-Then copy the skills into your Claude Code skills directory:
+If you want the skills available globally across all your Claude Code sessions, you can copy them to your user skills directory:
 
 ```bash
-cp -r terminalbeta/skills/* ~/.claude/skills/
+cp -r skills/* ~/.claude/skills/
 ```
-
-That's it — Claude Code picks them up automatically. Invoke any skill with `/skill-name` or let them trigger automatically based on your query.
 
 ### `using-mercury` — Session Onboarding *(load at session start)*
 
