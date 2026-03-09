@@ -72,7 +72,21 @@ Once the MCPs are installed, a set of Claude Code skills is available to get the
 
 > **All skills treat market data as live and time-sensitive. They always fetch fresh data rather than relying on anything stated earlier in the conversation.**
 
-Install skills via the [Claude Code skills system](https://github.com/anthropics/claude-code) or copy them into `~/.claude/skills/`.
+### Installing the skills
+
+The skills live in the `skills/` directory of this repo. **You need to clone the repo to use them:**
+
+```bash
+git clone https://github.com/Jaggerxtrm/terminalbeta.git
+```
+
+Then copy the skills into your Claude Code skills directory:
+
+```bash
+cp -r terminalbeta/skills/* ~/.claude/skills/
+```
+
+That's it — Claude Code picks them up automatically. Invoke any skill with `/skill-name` or let them trigger automatically based on your query.
 
 ### `using-mercury` — Session Onboarding *(load at session start)*
 
